@@ -1,0 +1,34 @@
+<html> 
+ <head>
+  <table width="15%" align="center" border="0" cellspacing="0" cellpadding="0" 
+  <tr>
+  <td>
+  <title>Calculadora</title>
+ </head>
+ <body>
+  <script src="operaciones.js"></script>
+  <font color="red"><legend><h1>CALCULADORA</h1></legend></font>
+  <table width="15%" align="center" border="2" cellspacing="1" cellpadding="3" bgcolor="grey">
+  <tr>
+  <td>
+  <fieldset>
+  <label for="txtNombre">PRIMER DIJITO</label><br/>
+  <input id="n1" type="text" name="num1"required/><br/>
+  <label for="txtNombre">SEGUNDO DIJITO</label><br/>
+  <input id="n2" type="text" name="num2"/><br/><br/>
+ 
+  <input id="btn1" type="button" value="+"/> 
+  <input id="btn2" type="button" value="-"/>
+  <input id="btn3" type="button" value="/"/>
+  <input id="btn4" type="button" value="*"/>
+  <br/>
+  <br/>
+  <label for="txtNombre">RESULTADO</label><br/>
+  <input id="resultado" type="text" name="resultado" />
+  </fieldset>
+  </td>
+  </tr>
+  </table>
+ </body>
+</html>
+
